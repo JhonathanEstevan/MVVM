@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/homeItem"
+    android:id="@+id/nav">
+
+    <fragment
+        android:id="@+id/homeItem"
+        android:name="com.example.proyectmvvm.ui.view.fragments.HomeFragment"
+        tools:layout="@layout/fragment_home"/>
+
+    <fragment
+        android:id="@+id/favoriteItem"
+        android:name="com.example.proyectmvvm.ui.view.fragments.FavoriteFragment"
+        tools:layout="@layout/fragment_favorite"/>
+
+
+    <fragment
+        android:id="@+id/carItem"
+        android:name="com.example.proyectmvvm.ui.view.fragments.CarFragment"
+        tools:layout="@layout/fragment_car"/>
+
+</navigation>
